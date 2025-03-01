@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    color: white;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 7vh;
+    justify-content: start;
+    align-items: center;
+    
+
+}
+.watch {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(Bg_1.png);
+    height: 50vh;
+    
+}
+.coming_soon {
+    flex-wrap: wrap;
+    background-image: url(bg_2.png);
+    height: 43vh;
+    border: 2px solid white;
+}
+.coming_text {
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    margin: 1%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.movies_plate {
+    border-radius: 20px;
+    height: 70%;
+    width: 13%;
+    border: 2px solid white;
+}
+#salaar {
+    background-image: url(salaar.png);
+    background-position: center;
+    background-position-y: 10%;
+}
+#Kalki {
+    background-image: url(kalki.png);
+    background-position: center;
+    background-size: 170%;
+    background-position-y: 10%;
+    background-position-x: 60%
+    
+}
+#Kgf1 {
+    background-image: url(kgf1.png);
+    background-position: center;
+    background-size: 170%;
+    background-position-y: 10%;
+    background-position-x: 100%;
+}
+#Kgf2 {
+    background-image: url(kgf2.png);
+    background-position: center;
+    background-size: 170%;
+    background-position-y: 10%;
+}
+#Avengers {
+    background-image: url(avegers.png);
+    background-position: center;
+    background-size: 170%;
+    background-position-y: 10%;
+}
+
+.home_title {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    font-size: 150%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.other {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: last baseline;
+    justify-content: space-evenly;
+}
+h3 {
+    color: blue;
+}
+.available {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: start;
+}
+.logo {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    height: 50%;
+}
+.skyforce_box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: end;
+}
+.skyforce_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    background-image: url(skyforce.png);
+    background-size: 180%;
+    background-position-x: 55%;
+    height: 50%;
+    width: 50%;
+    border-radius: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+.watch_now{
+    padding: 1%;
+    display: flex;
+    height: 30%;
+    width: 100%;
+    align-items: end;
+
+}
+.about_sky{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    border: 2px solid white;
+}
